@@ -1,7 +1,5 @@
 require 'rspec'
 require_relative '../services/parser'
-require 'simplecov'
-SimpleCov.start
 
 RSpec.describe Parser do
   subject { described_class.new }
